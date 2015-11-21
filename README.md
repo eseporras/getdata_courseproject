@@ -1,6 +1,18 @@
 # getdata_courseproject
 ### Getting and Cleaning Data course project
 
+## Files
+
+This repo contains the following files:
+
+* README.md: This readme file. 
+
+* run_analysis.R: R scripts producing a tidy data set. 
+
+* CodeBook.md: Description of the features given in the tidy dataset. 
+
+* tidy_averages.txt: Resulting tidy dataset, out of from running the R script. 
+
 ## Overview
 
 The "run_analysis.R" script in this repo processes publicly available data collected from the accelerometers from the Samsung Galaxy S smartphone and fully described in the following link: 
