@@ -49,7 +49,7 @@ The set of variables that were estimated from these signals are:
  
 ## Full list of averaged feature columns
 
-C4: tBodyAcc-mean()-X
+* C4: tBodyAcc-mean()-X
 * C5: tBodyAcc-mean()-Y
 * C6: tBodyAcc-mean()-Z
 * C7: tBodyAcc-std()-X
