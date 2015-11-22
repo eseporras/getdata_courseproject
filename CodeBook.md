@@ -6,9 +6,9 @@ The "tidy_averages.txt" file contains 82 columns. The first three are reference 
 
 The first three columns of the "tidy_averages.txt" file contain reference information to allow identification of the subject, activity type and set (training or test) of data the subsequent features refer to. 
 
-C1: activity_label: Name of one of six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) performed by the subjects of the experiment. 
-C2: subject_nr: Subject number (1 to 30).
-C3: set_type: Name of the set where the subject was assigned (train or test). 
+* C1: activity_label: Name of one of six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) performed by the subjects of the experiment. 
+* C2: subject_nr: Subject number (1 to 30).
+* C3: set_type: Name of the set where the subject was assigned (train or test). 
 
 
 ## Feature columns
@@ -50,81 +50,81 @@ The set of variables that were estimated from these signals are:
 ## Full list of averaged feature columns
 
 C4: tBodyAcc-mean()-X
-C5: tBodyAcc-mean()-Y
-C6: tBodyAcc-mean()-Z
-C7: tBodyAcc-std()-X
-C8: tBodyAcc-std()-Y
-C9: tBodyAcc-std()-Z
-C10: tGravityAcc-mean()-X
-C11: tGravityAcc-mean()-Y
-C12: tGravityAcc-mean()-Z
-C13: tGravityAcc-std()-X
-C14: tGravityAcc-std()-Y
-C15: tGravityAcc-std()-Z
-C16: tBodyAccJerk-mean()-X
-C17: tBodyAccJerk-mean()-Y
-C18: tBodyAccJerk-mean()-Z
-C19: tBodyAccJerk-std()-X
-C20: tBodyAccJerk-std()-Y
-C21: tBodyAccJerk-std()-Z
-C22: tBodyGyro-mean()-X
-C23: tBodyGyro-mean()-Y
-C24: tBodyGyro-mean()-Z
-C25: tBodyGyro-std()-X
-C26: tBodyGyro-std()-Y
-C27: tBodyGyro-std()-Z
-C28: tBodyGyroJerk-mean()-X
-C29: tBodyGyroJerk-mean()-Y
-C30: tBodyGyroJerk-mean()-Z
-C31: tBodyGyroJerk-std()-X
-C32: tBodyGyroJerk-std()-Y
-C33: tBodyGyroJerk-std()-Z
-C34: tBodyAccMag-mean()
-C35: tBodyAccMag-std()
-C36: tGravityAccMag-mean()
-C37: tGravityAccMag-std()
-C38: tBodyAccJerkMag-mean()
-C39: tBodyAccJerkMag-std()
-C40: tBodyGyroMag-mean()
-C41: tBodyGyroMag-std()
-C42: tBodyGyroJerkMag-mean()
-C43: tBodyGyroJerkMag-std()
-C44: fBodyAcc-mean()-X
-C45: fBodyAcc-mean()-Y
-C46: fBodyAcc-mean()-Z
-C47: fBodyAcc-std()-X
-C48: fBodyAcc-std()-Y
-C49: fBodyAcc-std()-Z
-C50: fBodyAcc-meanFreq()-X
-C51: fBodyAcc-meanFreq()-Y
-C52: fBodyAcc-meanFreq()-Z
-C53: fBodyAccJerk-mean()-X
-C54: fBodyAccJerk-mean()-Y
-C55: fBodyAccJerk-mean()-Z
-C56: fBodyAccJerk-std()-X
-C57: fBodyAccJerk-std()-Y
-C58: fBodyAccJerk-std()-Z
-C59: fBodyAccJerk-meanFreq()-X
-C60: fBodyAccJerk-meanFreq()-Y
-C61: fBodyAccJerk-meanFreq()-Z
-C62: fBodyGyro-mean()-X
-C63: fBodyGyro-mean()-Y
-C64: fBodyGyro-mean()-Z
-C65: fBodyGyro-std()-X
-C66: fBodyGyro-std()-Y
-C67: fBodyGyro-std()-Z
-C68: fBodyGyro-meanFreq()-X
-C69: fBodyGyro-meanFreq()-Y
-C70: fBodyGyro-meanFreq()-Z
-C71: fBodyAccMag-mean()
-C72: fBodyAccMag-std()
-C73: fBodyAccMag-meanFreq()
-C74: fBodyBodyAccJerkMag-mean()
-C75: fBodyBodyAccJerkMag-std()
-C76: fBodyBodyAccJerkMag-meanFreq()
-C77: fBodyBodyGyroMag-mean()
-C78: fBodyBodyGyroMag-std()
-C79: fBodyBodyGyroMag-meanFreq()
-C80: fBodyBodyGyroJerkMag-mean()
-C81: fBodyBodyGyroJerkMag-std()
-C82: fBodyBodyGyroJerkMag-meanFreq()
+* C5: tBodyAcc-mean()-Y
+* C6: tBodyAcc-mean()-Z
+* C7: tBodyAcc-std()-X
+* C8: tBodyAcc-std()-Y
+* C9: tBodyAcc-std()-Z
+* C10: tGravityAcc-mean()-X
+* C11: tGravityAcc-mean()-Y
+* C12: tGravityAcc-mean()-Z
+* C13: tGravityAcc-std()-X
+* C14: tGravityAcc-std()-Y
+* C15: tGravityAcc-std()-Z
+* C16: tBodyAccJerk-mean()-X
+* C17: tBodyAccJerk-mean()-Y
+* C18: tBodyAccJerk-mean()-Z
+* C19: tBodyAccJerk-std()-X
+* C20: tBodyAccJerk-std()-Y
+* C21: tBodyAccJerk-std()-Z
+* C22: tBodyGyro-mean()-X
+* C23: tBodyGyro-mean()-Y
+* C24: tBodyGyro-mean()-Z
+* C25: tBodyGyro-std()-X
+* C26: tBodyGyro-std()-Y
+* C27: tBodyGyro-std()-Z
+* C28: tBodyGyroJerk-mean()-X
+* C29: tBodyGyroJerk-mean()-Y
+* C30: tBodyGyroJerk-mean()-Z
+* C31: tBodyGyroJerk-std()-X
+* C32: tBodyGyroJerk-std()-Y
+* C33: tBodyGyroJerk-std()-Z
+* C34: tBodyAccMag-mean()
+* C35: tBodyAccMag-std()
+* C36: tGravityAccMag-mean()
+* C37: tGravityAccMag-std()
+* C38: tBodyAccJerkMag-mean()
+* C39: tBodyAccJerkMag-std()
+* C40: tBodyGyroMag-mean()
+* C41: tBodyGyroMag-std()
+* C42: tBodyGyroJerkMag-mean()
+* C43: tBodyGyroJerkMag-std()
+* C44: fBodyAcc-mean()-X
+* C45: fBodyAcc-mean()-Y
+* C46: fBodyAcc-mean()-Z
+* C47: fBodyAcc-std()-X
+* C48: fBodyAcc-std()-Y
+* C49: fBodyAcc-std()-Z
+* C50: fBodyAcc-meanFreq()-X
+* C51: fBodyAcc-meanFreq()-Y
+* C52: fBodyAcc-meanFreq()-Z
+* C53: fBodyAccJerk-mean()-X
+* C54: fBodyAccJerk-mean()-Y
+* C55: fBodyAccJerk-mean()-Z
+* C56: fBodyAccJerk-std()-X
+* C57: fBodyAccJerk-std()-Y
+* C58: fBodyAccJerk-std()-Z
+* C59: fBodyAccJerk-meanFreq()-X
+* C60: fBodyAccJerk-meanFreq()-Y
+* C61: fBodyAccJerk-meanFreq()-Z
+* C62: fBodyGyro-mean()-X
+* C63: fBodyGyro-mean()-Y
+* C64: fBodyGyro-mean()-Z
+* C65: fBodyGyro-std()-X
+* C66: fBodyGyro-std()-Y
+* C67: fBodyGyro-std()-Z
+* C68: fBodyGyro-meanFreq()-X
+* C69: fBodyGyro-meanFreq()-Y
+* C70: fBodyGyro-meanFreq()-Z
+* C71: fBodyAccMag-mean()
+* C72: fBodyAccMag-std()
+* C73: fBodyAccMag-meanFreq()
+* C74: fBodyBodyAccJerkMag-mean()
+* C75: fBodyBodyAccJerkMag-std()
+* C76: fBodyBodyAccJerkMag-meanFreq()
+* C77: fBodyBodyGyroMag-mean()
+* C78: fBodyBodyGyroMag-std()
+* C79: fBodyBodyGyroMag-meanFreq()
+* C80: fBodyBodyGyroJerkMag-mean()
+* C81: fBodyBodyGyroJerkMag-std()
+* C82: fBodyBodyGyroJerkMag-meanFreq()
