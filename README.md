@@ -11,7 +11,7 @@ This repo contains the following files:
 
 * CodeBook.md: Description of the features given in the tidy dataset. 
 
-* tidy_averages.txt: Resulting tidy dataset, out of from running the R script. 
+* tidy_averages.txt: Resulting tidy dataset, output from running the R script. 
 
 ## Overview
 
