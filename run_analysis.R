@@ -45,7 +45,7 @@ subjects <- rbind(subjects_test,subjects_train)
 
 # 6: Select only those features with mean or std data. 
 
-col_sel <- grep("mean|std",feat_names$V2, ignore.case=F)
+col_sel <- grep('-mean()|-std()',feat_names$V2, ignore.case=F)
  
 
 data_sel <- data[,col_sel]
@@ -55,7 +55,7 @@ data_sel <- data[,col_sel]
 colnames(labels) <- c("label_id")
 colnames(subjects) <- c("subject_nr", "set_type")
 
-full_ds <- cbind(subjects, labels, data)
+full_ds <- cbind(subjects, labels, data_sel)
 
 # 8: Give the activity labels meaningful names.  
 
@@ -64,9 +64,11 @@ full_ds_annot <- merge(act_names, full_ds, by.x= 1, by.y="label_id")
 library(dplyr)
 
 full_ds_annot <- rename(full_ds_annot, label_id = V1, activity_label=V2)
+full_ds_annot <- full_ds_annot %>% select(-matches("label_id"))
 
 # 9: Produce a tidy dataset with the averages of the selected features per subject and activity type.
 
-full_ds_ave <- full_ds_annot %>% group_by(label_id,activity_label,subject_nr,set_type) %>% summarise_each(funs(mean))
+full_ds_ave <- full_ds_annot %>% group_by(activity_label,subject_nr,set_type) %>% summarise_each(funs(mean))
 
 write.table(full_ds_ave, "tidy_averages.txt", row.name=F, col.name=T, sep = "\t", quote = F)
+
